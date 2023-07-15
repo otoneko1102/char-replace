@@ -1,0 +1,62 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #666;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  resize: vertical;
+}
+
+.conversion-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.conversion-input,
+.conversion-output {
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  }
