@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>文字変換</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>文字変換</h1>
+
+  <form id="main-form">
+    <div class="form-group">
+      <h2>変換前:</h2>
+      <textarea id="input-text" rows="5" cols="50"></textarea>
+    </div>
+    <div id="conversion-forms"></div>
+    <br>
+    <button type="submit">変換</button>
+  </form>
+
+  <div>
+    <h2>変換後:</h2>
+    <textarea id="output-text" rows="5" cols="50" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
